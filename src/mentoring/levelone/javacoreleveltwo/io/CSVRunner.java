@@ -19,14 +19,13 @@ import java.nio.file.Path;
  * Желательно реализовать доп. функционал:
  * Если для каких-то ID не будет значений в обоих файлах, то записать их в один файл errors.csv, где будет лишь одно поле ID.
  */
-public class CsvRunner {
+public class CSVRunner {
 
     public static void main(String[] args) throws IOException {
         Path itemsPricePath = Path.of("resources", "items-price.csv");
         Path itemsNamePath = Path.of("resources", "items-name.csv");
         Path resultPath = Path.of("resources", "result.csv");
         Path errorPath = Path.of("resources", "errors.csv");
-
-        CsvUtils.write(itemsPricePath, itemsNamePath, resultPath, errorPath);
+        CSVUtils.write(itemsPricePath, itemsNamePath, resultPath, errorPath);
     }
 }
