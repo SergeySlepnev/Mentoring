@@ -1,7 +1,7 @@
 package mentoring.levelone.javacoreleveltwo.collections.parttwo.movie;
+
 import lombok.Getter;
 import lombok.ToString;
-import mentoring.levelone.javacoreleveltwo.collections.parttwo.movie.Genre;
 
 import java.util.Objects;
 
@@ -11,11 +11,11 @@ public class Movie {
 
     private final int id;
     private final int releaseYear;
-    private final dmdev.mentoring.levelone.coreleveltwo.homework.collections.parttwo.movie.ReleaseMonth releaseMonth;
+    private final ReleaseMonth releaseMonth;
     private final Genre genre;
     private int rating;
 
-    public Movie(int id, int releaseYear, dmdev.mentoring.levelone.coreleveltwo.homework.collections.parttwo.movie.ReleaseMonth releaseMonth, Genre genre, int rating) {
+    public Movie(int id, int releaseYear, ReleaseMonth releaseMonth, Genre genre, int rating) {
         this.id = id;
         this.releaseYear = releaseYear;
         this.releaseMonth = releaseMonth;

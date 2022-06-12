@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
-import static dmdev.mentoring.levelone.coreleveltwo.homework.collections.parttwo.movie.Genre.*;
-import static dmdev.mentoring.levelone.coreleveltwo.homework.collections.parttwo.movie.ReleaseMonth.*;
+import static mentoring.levelone.javacoreleveltwo.collections.parttwo.movie.Genre.*;
+import static mentoring.levelone.javacoreleveltwo.collections.parttwo.movie.ReleaseMonth.*;
 
 public class MovieTheaterRunner {
 

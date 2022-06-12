@@ -1,8 +1,6 @@
 package mentoring.levelone.javacoreleveltwo.collections.parttwo.movie;
+
 import lombok.Getter;
-import mentoring.levelone.javacoreleveltwo.collections.parttwo.movie.Genre;
-import mentoring.levelone.javacoreleveltwo.collections.parttwo.movie.Movie;
-import mentoring.levelone.javacoreleveltwo.collections.parttwo.movie.MovieRatingComparator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +38,7 @@ public class MovieTheater {
         }
     }
 
-    public ArrayList<Movie> getMoviesForYearMonth(int year, dmdev.mentoring.levelone.coreleveltwo.homework.collections.parttwo.movie.ReleaseMonth month) {
+    public ArrayList<Movie> getMoviesForYearMonth(int year, ReleaseMonth month) {
         ArrayList<Movie> moviesForYear = getMoviesForYear(year);
         if (moviesForYear.isEmpty()) {
             System.out.println(NO_MOVIES_FOUND);

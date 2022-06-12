@@ -23,6 +23,7 @@ idea/misc.xml
 idea/modules.xml
 idea/uiDesigner.xml
 idea/vcs.xml
+commons-csv-1.9.0.jar
 
 # AWS User-specific
 .idea/**/aws.xml
